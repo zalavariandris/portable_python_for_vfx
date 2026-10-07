@@ -1,0 +1,7 @@
+bin/
+python/
+.venv/
+.cache/
+__pycache__/
+*.py[cod]
+ffmpeg/

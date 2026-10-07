@@ -1,0 +1,26 @@
+[project]
+name = "andris-tools"
+version = "0.1.0"
+requires-python = ">=3.10,<3.14"
+dependencies = [
+    "numpy>=1.26",
+    "openimageio>=3.0",
+    "opencolorio>=2.6.0",
+    "openai>=3.24.0,<4",
+    "opencv-python>=4.10,<5",
+    "andris-image-operators",
+    "rich>=15.0.0",
+    "matplotlib>=3.10.9",
+    "jupyter-compare-view>=0.2.5",
+]
+
+[tool.uv]
+package = false
+
+[tool.uv.sources]
+andris-image-operators = { workspace = true }
+
+[tool.uv.workspace]
+members = [
+    "andris_packages/image_operators",
+]
