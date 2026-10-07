@@ -1,4 +1,10 @@
 # Portable Python for VFX
+(VFX Platform 2025)
+
+setup donwloads:
+- portable python 3.11 (or .python-version)
+- ffmpeg
+- OpenColorIO (todo)
 
 
 ## Setup
